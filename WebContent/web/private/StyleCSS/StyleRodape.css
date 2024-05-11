@@ -1,0 +1,76 @@
+@CHARSET "ISO-8859-1";
+
+a.rodape:link, a.rodape:visited {
+	text-decoration: none;
+	color: blue;	
+}
+
+a.rodape:active{
+	color: red;
+	text-decoration: none;
+}
+
+#rodape {
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#bcbcbc), color-stop(48%,#dbdbdb), color-stop(100%,#bababa));
+	height: 75px;
+	width: 100%;
+	left: 0px;
+	position: absolute;
+	margin-top: 636px;
+}
+
+#itens {
+	position: absolute;
+	width: 100%;
+	margin-top: 20px;
+	font-size: 14px;
+	font-family: "Arial", Gadget, sans-serif;
+	text-align: center;
+	line-height: 15px;
+	height: 15px;	
+	font-weight: bold;
+}
+
+#sobre {
+	position: absolute;
+	margin-top: 0px;
+	font-size: 14px;
+	font-family: "Arial", Gadget, sans-serif;
+	line-height: 15px;
+	height: 15px;
+	margin-left: -315px;
+	text-decoration: none;
+}
+
+#termos {
+	position: absolute;
+	margin-left: 125px;
+	margin-top: 0px;
+	font-size: 14px;
+	font-family: "Arial", Gadget, sans-serif;
+	line-height: 15px;
+	height: 15px;
+	text-decoration: none;
+}
+
+#direitos {
+	position: absolute;
+	width: 100%;
+	margin-top: 40px;
+	font-size: 12px;
+	font-family: "Arial", Gadget, sans-serif;
+	text-align: center;
+	line-height: 15px;
+	height: 15px;
+}
+
+#autoria {
+	position: absolute;
+	width: 100%;
+	margin-top: 55px;
+	font-size: 12px;
+	font-family: "Arial", Gadget, sans-serif;
+	text-align: center;
+	line-height: 15px;
+	height: 15px;
+}

@@ -1,0 +1,326 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: #F2F2F2;
+}
+
+a:link,a:visited {
+	text-decoration: none;
+	color: red;
+}
+
+a:hover {
+	color: blue;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+#panel {
+	background-color: #FFF;
+	height: 1925px;
+	width: 1000px;
+	position: absolute;
+	left: 50%;
+	margin-left: -500px;
+	top: 140px;
+	background-color: #F2F2F2;
+}
+
+#exibirTutorial {
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 980px;
+	height: 900px;
+}
+
+#tituloTutorial {
+	position: absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+	font-family: "Candara", Gadget, sans-serif;
+	color: #000;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: none;
+	text-align: center;
+	width: 980px;
+}
+
+#editarTutorial{
+	position: absolute;
+	margin-top: 910px;
+	margin-left: 897px;
+	font-family: "Candara", Gadget, sans-serif;
+	font-size: 18px;
+	width: 75px;
+	height: 30px;
+	color: #FFFFFF;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(188,
+		28, 0, 1)), color-stop(100%, rgba(186, 6, 0, 1))); 
+	border-style : solid; 
+	border-color : rgba( 188, 28, 0, 1); 
+	border-width : 1px;
+	border-radius : 3px;
+	font-weight: bold;
+	font-size: 15px;
+	width: 75px;
+	height: 30px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 30px;
+}
+
+#editarlogo {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	margin-top: 2px;
+	margin-left: -38px;	
+}
+
+#editartexto {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	margin-top: 0px;
+	margin-left: -10px;
+	font-size: 16px;	
+}
+
+#autorTutorial {
+	position: absolute;
+	margin-left: 12px;
+	margin-top: 59px;
+	text-align: left;
+	line-height: 23px;
+	width: 960px;
+	height: 23px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+#dataTutorial {
+	position: absolute;
+	margin-left: 12px;
+	margin-top: 59px;
+	text-align: center;
+	line-height: 23px;
+	width: 960px;
+	height: 23px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+#temaTutorial {
+	position: absolute;
+	margin-left: 12px;
+	margin-top: 59px;
+	text-align: right;
+	line-height: 23px;
+	width: 960px;
+	height: 23px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+#pdfTutorial {
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 10px;
+	width: 960px;
+	height: 820px;
+}
+
+#comentarios{
+	position: absolute;
+	margin-top: 950px;
+	margin-left: 0px;
+	height: 300px;
+	width: 1000px;	
+}
+
+#lblAdcComentario {
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 28px;
+	font-family: "Candara", Gadget, sans-serif;
+	font-weight: bold;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: rgb(77, 86, 91);
+	height: 30px;
+	width: 980px;
+	color: rgb(77, 86, 91);
+}
+
+#comentariologo {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	margin-top: 0px;
+	margin-left: 655px;
+}
+
+#adcComentario{
+	position: absolute;
+	margin-left: 230px;
+	margin-top: 10px;
+}
+#lblNome {
+	position: absolute;
+	margin-left: 15px;
+	margin-top: 50px;
+	font-family: "Arial", Gadget, sans-serif;
+	color: #000;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#txtNome {
+	width: 393px;
+	position: absolute;
+	margin-left: 95px;
+	margin-top: 50px;
+	font-family: "Arial", Gadget, sans-serif;
+	color: #000;
+	font-size: 18px;
+}
+
+#lblComentario {
+	position: absolute;
+	margin-left: 15px;
+	margin-top: 80px;
+	font-family: "Arial", Gadget, sans-serif;
+	color: #000;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#contadorChar {
+	position: absolute;
+	margin-left: 335px;
+	margin-top: 85px;
+	color: red;
+	font-size: 12px;
+	font-family: "Arial", Gadget, sans-serif;
+	width: 140px;
+}
+
+#txtComentario {
+	position: absolute;
+	margin-left: 15px;
+	margin-top: 100px;
+	display: block;
+	width: 450px;
+	height: 150px;
+	resize: none;
+}
+
+#btnComentar {
+	position: absolute;
+	margin-left: 395px;
+	margin-top: 265px;
+	color: #FFFFFF;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(188,
+		28, 0, 1)), color-stop(100%, rgba(186, 6, 0, 1))); 
+	border-style : solid; 
+	border-color : rgba( 188, 28, 0, 1); 
+	border-width : 1px;
+	border-radius : 3px;
+	font-size: 20px;
+	font-family: "Candara", Gadget, sans-serif;
+	font-weight: bold;
+	width: 75px;
+	height: 30px;	
+}
+
+#lblExibeComentario {
+	position: absolute;
+	margin-top: 1270px;
+	margin-left: 10px;
+	font-size: 28px;
+	font-family: "Candara", Gadget, sans-serif;
+	font-weight: bold;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: rgb(77, 86, 91);
+	height: 30px;
+	width: 980px;
+	color: rgb(77, 86, 91);
+}
+
+#comentarioslogo {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	margin-top: 0px;
+	margin-left: 791px;	
+}
+
+#exibeComentarios{
+	position: absolute;
+	margin-top: 1310px;
+	margin-left: 10px;
+	width: 980px;
+	height: 600px;
+	overflow-x: hidden;
+}
+
+#comentariosTutorial{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 90px;
+	list-style-type: none;
+}
+
+#lblidusuario {
+	margin-left: -20px;
+	font: "Arial";
+	color: #000;
+	font-weight: bold;
+	font-size: 15px;
+	width: 650px;
+	font-family: sans-serif;
+}
+
+#lblcomentario {
+	width: 650px;
+	line-height: 30px;
+	padding: 3px;
+	background-color: #E4E4E4;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #949191;
+	border-radius: 3px;
+	font-family: "Arial",gadget, sans-serif;
+}
+
+#comandosComentario{
+	width: 650px;
+	text-align: left;
+	font-family: sans-serif;
+	font-weight: bold;
+	height: 15px;	
+}
+
+#acao1 {
+	position: absolute;	
+	width: 325px;
+	margin-left: 0px;
+}
+
+#acao2 {
+	position: absolute;
+	width: 325px;
+	margin-left: 605px;
+}
+#insertRodape {
+	margin-top: 1431px;
+}

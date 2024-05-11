@@ -1,0 +1,390 @@
+@CHARSET "ISO-8859-1";
+
+a.categorias:hover {	
+	border-bottom-color: #C2C2C2;
+	border-bottom-style: solid;
+	border-bottom-width: medium;	
+}
+
+a.perfil:hover {
+	border-bottom-color: rgba(186,6,0,1);
+	border-bottom-style: solid;
+	border-bottom-width: medium;
+}
+
+#cabecalho {
+	height: 84px;
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: auto;
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#bcbcbc), color-stop(48%,#dbdbdb), color-stop(100%,#bababa));
+}
+
+#cabecalhoCentro {
+	height: 84px;
+	width: 1000px;
+	position: absolute;
+	margin-left: -500px;
+	left: 50%;
+	top: 0px;	
+}
+
+#logo {
+	position: absolute;
+	margin-top: -15px;
+	margin-left: 0px;
+	width: 200px;
+	height: 120px;
+}
+
+#busca {
+	height: 60px;
+	position: absolute;
+	top: 15px;
+	left: 280px;
+}
+
+#pesquisa {
+	width: 400px;
+	height: 25px;
+	font-size: 15px;
+	margin-left: -65px;
+	margin-top: 15px;
+}
+
+#btnpesquisa {
+	border-radius: 3px;
+	border-style: solid;
+	border-color: rgba(188, 28, 0, 1);
+	border-width: 1px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(188,
+		28, 0, 1)), color-stop(100%, rgba(186, 6, 0, 1)));
+	width: 110px;
+	height: 30px;
+	font-weight: bold;
+	font-family: "Candara", Gadget, sans-serif;
+	color: #FFFFFF;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: left;
+	font-size: 18px;
+}
+
+#imgPesquisa {
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	margin-top: 18px;
+	margin-left: 90px;
+}
+
+#cadastrese {
+	position: absolute;
+	width: 250px;
+	height: 28px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 25px;
+	border-radius: 3px;
+	border-style: solid;
+	border-color: rgba(188, 28, 0, 1);
+	border-width: 1px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(188,
+	 28, 0, 1)), color-stop(100%, rgba(186, 6, 0, 1)));
+	left: 745px;
+	top: 30px;
+	font-family: "Candara", Gadget, sans-serif;
+}
+
+#cadastreselogo {	
+	position: absolute;
+	margin-top: 3px;
+	width: 25px;
+	height: 23px;
+	margin-left: -118px;
+}
+
+#cadastresetext {
+	position: absolute;
+	margin-left: -80px;
+	margin-top: 2px;
+}
+
+#commandbar {
+	position: absolute;
+	margin-top: 84px;
+	width: 100%;
+	left: 0px;
+	height: 30px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(188,
+		28, 0, 1)), color-stop(100%, rgba(186, 6, 0, 1)));
+}
+
+#commandCentro {
+	position: absolute;
+	margin-top: 0px;
+	width: 1000px;
+	margin-left: -500px;
+	left: 50%;
+	height: 30px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(188,
+		28, 0, 1)), color-stop(100%, rgba(186, 6, 0, 1)));	
+}
+
+#hardware {
+	position: absolute;
+	margin-left: 55px;
+	margin-top: 0px;
+	text-align: center;
+	line-height: 28px;
+	width: 150px;
+	height: 27px;
+	font-family: "Candara", Gadget, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	font-family:: sans-serif;	
+}
+
+#hardwarelogo {
+	position: absolute;
+	margin-top: 0px;
+	margin-left: -65px;
+	width: 30px;
+	height: 30px;
+}
+
+#hardwaretext {
+	position: absolute;
+	margin-left: -25px;
+}
+
+#redes {
+	position: absolute;
+	margin-left: 260px;
+	margin-top: 0px;
+	text-align: center;
+	line-height: 28px;
+	width: 115px;
+	height: 27px;
+	font-family: "Candara", Gadget, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	font-family:: sans-serif;
+}
+
+#redeslogo {
+	position: absolute;
+	margin-top: 3px;
+	margin-left: -50px;
+	width: 25px;
+	height: 23px;
+}
+
+#redestext {
+	position: absolute;
+	margin-left: -12px;
+}
+
+#so {
+	position: absolute;
+	margin-left: 430px;
+	margin-top: 0px;
+	text-align: center;
+	line-height: 28px;
+	width: 275px;
+	height: 27px;
+	font-family: "Candara", Gadget, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	font-family:: sans-serif;
+}
+
+#sologo {
+	position: absolute;
+	margin-top: 3px;
+	margin-left: -127px;
+	width: 25px;
+	height: 23px;
+}
+
+#sotext {
+	position: absolute;
+	margin-left: -90px;
+}
+
+#programacao {
+	position: absolute;
+	margin-left: 760px;
+	margin-top: 0px;
+	text-align: center;
+	line-height: 28px;
+	width: 185px;
+	height: 27px;
+	font-family: "Candara", Gadget, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	font-family:: sans-serif;
+}
+
+#programacaologo {
+	position: absolute;
+	margin-top: 3px;
+	margin-left: -82px;
+	width: 25px;
+	height: 25px;
+}
+
+#programacaotext {
+	position: absolute;
+	margin-left: -45px;
+}
+
+#usercommand {
+	position: absolute;
+	margin-top: 114px;
+	left: 0px;
+	width: 100%;
+	height: 26px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(45,
+		45, 45, 1)), color-stop(100%, rgba(84, 84, 84, 1)));
+}
+
+#userCentro {
+	position: absolute;
+	margin-top: 0px;
+	width: 1000px;
+	margin-left: -500px;
+	left: 50%;
+	height: 26px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(45,
+		45, 45, 1)), color-stop(100%, rgba(84, 84, 84, 1)));
+}
+
+#meuPerfil {
+	position: absolute;
+	margin-left: 103px;
+	margin-top: 0px;
+	text-align: center;
+	line-height: 20px;
+	width: 120px;
+	height: 23px;
+	font-family: "Candara", Gadget, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 17px;
+	text-decoration: none;	
+}
+
+#perfillogo {
+	position: absolute;
+	margin-top: 2px;
+	margin-left: -55px;
+	width: 25px;
+	height: 19px;
+}
+
+#perfiltext {
+	position: absolute;
+	margin-left: -20px;
+	margin-top: 2px;
+}
+
+#meusTutoriais {
+	position: absolute;
+	margin-left: 326px;
+	margin-top: 0px;
+	text-align: center;
+	line-height: 20px;
+	width: 150px;
+	height: 23px;
+	font-family: "Candara", Gadget, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+#meustutoriaislogo {
+	position: absolute;
+	margin-top: 2px;
+	margin-left: -70px;
+	width: 25px;
+	height: 19px;
+}
+
+#meustutoriaistext {
+	position: absolute;
+	margin-left: -35px;
+	margin-top: 2px;
+}
+
+#novoTutorial {
+	position: absolute;
+	margin-left: 579px;
+	margin-top: 0px;
+	text-align: center;
+	line-height: 20px;
+	width: 140px;
+	height: 23px;
+	font-family: "Candara", Gadget, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+#novotutorialogo {
+	position: absolute;
+	margin-top: 2px;
+	margin-left: -65px;
+	width: 25px;
+	height: 19px;
+}
+
+#novotutorialtext {
+	position: absolute;
+	margin-left: -30px;
+	margin-top: 2px;
+}
+
+#sair {
+	position: absolute;
+	margin-left: 822px;
+	margin-top: 0px;
+	text-align: center;
+	line-height: 20px;
+	width: 75px;
+	height: 23px;
+	font-family: "Candara", Gadget, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+#sairlogo {
+	position: absolute;
+	margin-top: 2px;
+	margin-left: -30px;
+	width: 25px;
+	height: 19px;
+}
+
+#sairtext {
+	position: absolute;
+	margin-left: 3px;
+	margin-top: 2px;
+}

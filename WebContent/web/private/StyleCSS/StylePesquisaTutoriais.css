@@ -1,0 +1,95 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: #F2F2F2;
+}
+
+a.aptos:hover {
+	background-color: rgb(214,214,214);
+}
+
+a:link,a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none
+}
+
+#panel {
+	background-color: #F2F2F2;
+	height: 744px;
+	width: 1000px;
+	position: absolute;
+	left: 50%;
+	margin-left: -500px;
+	top: 140px;
+}
+
+#lblResultados {
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 28px;
+	font-family: "Candara", Gadget, sans-serif;
+	font-weight: bold;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: rgb(77, 86, 91);
+	height: 30px;
+	width: 980px;
+	color: rgb(77, 86, 91);
+}
+
+#resultadoImg {
+	position: absolute;
+	margin-left: 665px;
+	margin-top: 0px;
+	width: 30px;
+	height: 30px;	
+}
+
+#divResultados {
+	position: absolute;
+	width: 980px;
+	height: 650px;
+	margin-top: 58px;
+	margin-left: 10px;
+	overflow-x: hidden;
+}
+
+#Resultados1 {
+	position: absolute;
+	margin-left: -490px;
+	width: 980px;
+	font-size: 20px;
+	font-family: "Arial", Gadget, sans-serif;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+#listaResultados {
+	position: absolute;
+	width: 980px;
+	margin-left: -40px;
+	margin-top: 0px;
+	font-size: 16px;
+	font-family: "Arial", Gadget, sans-serif;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;	
+}
+
+#rodapeInsert {
+	margin-top: 250px;
+}
+
+.lista {
+	list-style: none;
+}

@@ -1,0 +1,549 @@
+@CHARSET "ISO-8859-1";
+
+a.termoslink:link,a.termoslink:visited {
+	text-decoration: none;
+	color: blue;
+}
+
+body {
+	background-color: #F2F2F2;
+}
+
+#panel {
+	background-color: #F2F2F2;
+	height: 724px;
+	width: 1000px;
+	position: absolute;
+	left: 50%;
+	margin-left: -500px;
+	top: 140px;
+}
+
+#tituloCadastro {
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 40px;
+	width: 500px;
+	text-align: center;
+	font-size: 35px;
+	font-family: "Candara", Gadget, sans-serif;
+	font-weight: bold;
+}
+
+#cadastro {
+	position: absolute;
+	margin-top: 55px;
+	margin-left: 10px;
+	width: 500px;
+	height: 660px;
+}
+
+#avisoNome{
+	position: absolute;
+	margin-top: 16px;
+	margin-left: 10px;
+	font-size: 10px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+	color: red;
+	width: 130px;
+	text-align: right;	
+}
+
+#nomelbl {
+	position: absolute;
+	margin-top: 14px;
+	margin-left: 147px;
+	font-size: 15px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+	width: 25px;
+}
+
+#nome {
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 220px;
+	height: 20px;
+	width: 250px;
+}
+
+#avisoCPF{
+	position: absolute;
+	margin-top: 53px;
+	margin-left: 5px;
+	font-size: 10px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+	color: red;
+	width: 145px;
+	text-align: right;	
+}
+
+#cpflbl {
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 158px;
+	font-size: 15px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+	width: 25px;
+}
+
+#cpf {
+	position: absolute;
+	margin-top: 45px;
+	margin-left: 220px;
+	height: 20px;
+	width: 250px;
+}
+
+#avisoUsuario{
+	position: absolute;
+	margin-top: 87px;
+	margin-left: 0px;
+	font-size: 10px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+	color: red;
+	width: 120px;
+	text-align: right;
+}
+
+#usuariolbl {
+	position: absolute;
+	margin-top: 85px;
+	margin-left: 133px;
+	font-size: 15px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+	width: 25px;
+}
+
+#usuario {
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 220px;
+	height: 20px;
+	width: 250px;
+}
+
+
+#avisoEmail{
+	position: absolute;
+	margin-top: 123px;
+	margin-left: 10px;
+	font-size: 10px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+	color: red;
+	width: 130px;
+	text-align: right;	
+}
+
+#emaillbl {
+	position: absolute;
+	margin-top: 120px;
+	margin-left: 150px;
+	font-size: 15px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+	width: 25px;
+}
+
+#email {
+	position: absolute;
+	margin-top: 115px;
+	margin-left: 220px;
+	height: 20px;
+	width: 250px;
+}
+
+#avisoSenha{
+	position: absolute;
+	margin-top: 157px;
+	margin-left: 10px;
+	font-size: 10px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+	color: red;
+	width: 130px;
+	text-align: right;	
+}
+
+#passwordlbl {
+	position: absolute;
+	margin-top: 155px;
+	margin-left: 143px;
+	font-size: 15px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+	width: 25px;
+}
+
+#password {
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 220px;
+	height: 20px;
+	width: 250px;
+}
+
+#avisoConfirmaSenha{
+	position: absolute;
+	margin-top: 193px;
+	margin-left: 20px;
+	font-size: 10px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+	color: red;
+	text-align: right;	
+}
+
+#confirmapasslbl {
+	position: absolute;
+	margin-top: 190px;
+	margin-left: 30px;
+	font-size: 15px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+}
+
+#confirmapass {
+	position: absolute;
+	margin-top: 185px;
+	margin-left: 220px;
+	height: 20px;
+	width: 250px;
+}
+
+#especificacao {
+	position: absolute;
+	margin-top: 225px;
+	margin-left: 25px;
+	font-size: 15px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+}
+
+#experiencia {
+	position: absolute;
+	font-size: 15px;
+	font-family: "Arial", Gadget, sans-serif;
+	margin-top: 220px;
+	margin-left: 220px;
+	height: 27px;
+	width: 255px;
+}
+
+#avisoExperiencias{
+	position: absolute;
+	margin-top: 257px;
+	margin-left: 200px;
+	font-size: 10px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+	color: red;
+	text-align: right;
+}
+
+#experienciaslbl{
+	position: absolute;
+	margin-left: 0px;
+	width: 500px;
+	text-align: center;
+	margin-top: 255px;
+	font-size: 15px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+}
+
+#contadorChar {
+	position: absolute;
+	margin-left: 315px;
+	margin-top: 265px;
+	color: red;
+	font-size: 12px;
+	font-family: "Arial", Gadget, sans-serif;
+}
+
+#experiencias {
+	position: absolute;
+	margin-left: 45px;
+	margin-top: 280px;
+	display: block;
+	width: 400px;
+	height: 150px;
+	resize: none;
+	font-family: sans-serif;
+	color: #A0A3A3;
+}
+
+#avisoTermos{
+	position: absolute;
+	margin-top: 446px;
+	margin-left: 85px;
+	font-size: 10px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+	color: red;
+	text-align: right;
+}
+
+#checkboxTermos {
+	position: absolute;
+	margin-top: 445px;
+	margin-left: 95px;
+}
+
+#lblTermos {
+	position: absolute;
+	margin-top: 443px;
+	margin-left: 120px;
+	font-size: 15px;
+	font-family: "Arial", Gadget, sans-serif;
+}
+
+#avisoGeral{
+	position: absolute;
+	margin-top: 465px;
+	margin-left: 10px;
+	font-size: 12px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+	color: red;
+	width: 480px;
+	text-align: center;
+}
+
+#captcha {
+	position: absolute;
+	margin-top: 490px;
+	margin-left: 120px;
+	width: 250px;
+	height: 100px;
+	border: thin;
+	border-style: solid;
+	border-radius: 4px;
+	border-color: black;
+}
+
+#seguranca {
+	position: absolute;
+	margin-top: 20px;
+	width: 250px;
+	text-align: center;
+	font-weight: bold;
+	font-family: "Arial", Gadget, sans-serif;
+	font-size: 14px;
+}
+
+#number1 {
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 70px;
+	font-weight: bold;
+	font-family: "Arial", Gadget, sans-serif;
+	font-size: 16px;
+}
+
+#number2 {
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 95px;
+	font-weight: bold;
+	font-family: "Arial", Gadget, sans-serif;
+	font-size: 16px;	
+}
+
+#resultado {
+	position: absolute;
+	margin-top: 55px;
+	margin-left: 130px;
+	height: 20px;
+	width: 50px;	
+}
+
+#cadastrar {
+	position: absolute;
+	margin-top: 600px;
+	margin-left: 121px;
+	height: 40px;
+	width: 250px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(188,
+	 28, 0, 1)), color-stop(100%, rgba(186, 6, 0, 1)));
+	border-style: solid;
+	border-color: rgba(188, 28, 0, 1);
+	border-width: 1px;
+	border-radius: 3px;
+	font-weight: bold;
+	font-family: "Candara", Gadget, sans-serif;
+	font-size: 22px;
+	color: #FFFFFF;
+}
+
+#separador {
+	position: absolute;
+	margin-left: 520px;
+	margin-top: 40px;
+	width: 2px;
+	height: 500px;
+	background-color: #000;
+}
+
+#tituloLogin {
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 550px;
+	text-align: center;
+	width: 400px;
+	font-size: 35px;
+	font-family: "Candara", Gadget, sans-serif;
+	font-weight: bold;
+}
+
+#login {
+	position: absolute;
+	margin-top: 55px;
+	margin-left: 530px;
+	width: 450px;
+	height: 290px;
+}
+
+#avisoUsuario2{
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 5px;
+	font-size: 10px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+	color: red;
+	width: 110px;
+	text-align: left;
+}
+
+#usuariolbl2 {
+	position: absolute;
+	margin-top: 18px;
+	margin-left: 110px;
+	font-size: 15px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+}
+
+#usuario2 {
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 180px;
+	height: 20px;
+	width: 200px;
+}
+
+#passwordlbl2 {
+	position: absolute;
+	margin-top: 58px;
+	margin-left: 120px;
+	font-size: 15px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+}
+
+#password2 {
+	position: absolute;
+	margin-top: 55px;
+	margin-left: 180px;
+	height: 20px;
+	width: 200px;
+}
+
+#erroLogin{
+	position: absolute;
+	margin-top: 85px;
+	margin-left: 160px;
+	width: 200px;
+	font-size: 10px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+	color: red;
+}
+
+#captcha2 {
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 100px;
+	width: 250px;
+	height: 100px;
+	border-color: black;
+	border: thin;
+	border-style: solid;
+	border-radius: 4px;
+}
+
+#number3 {
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 70px;
+	font-weight: bold;
+	font-family: "Arial", Gadget, sans-serif;
+	font-size: 16px;
+}
+
+#number4 {
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 95px;
+	font-weight: bold;
+	font-family: "Arial", Gadget, sans-serif;
+	font-size: 16px;	
+}
+
+#resultado2 {
+	position: absolute;
+	margin-top: 55px;
+	margin-left: 130px;
+	height: 20px;
+	width: 50px;	
+}
+
+#loginBtn {
+	position: absolute;
+	margin-top: 210px;
+	margin-left: 100px;
+	height: 40px;
+	width: 250px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(188,
+		28, 0, 1)), color-stop(100%, rgba(186, 6, 0, 1)));
+	border-style: solid;
+	border-color: rgba(188, 28, 0, 1);
+	border-width: 1px;
+	border-radius: 3px;
+	font-weight: bold;
+	font-family: "Candara", Gadget, sans-serif;
+	font-size: 22px;
+	color: #FFFFFF;
+}
+
+#recuperaSenha {
+	position: absolute;
+	margin-top: 270px;
+	margin-left: 300px;
+	color:red;
+	font-size: 15px;
+	font-family: "Arial", Gadget, sans-serif;
+	text-decoration: none;
+}
+
+#reativaUsuario {
+	position: absolute;
+	margin-top: 270px;
+	margin-left: 10px;
+	color:red;
+	font-size: 15px;
+	font-family: "Arial", Gadget, sans-serif;
+	text-decoration: none;
+}
+
+
+#rodapeInsert{
+	margin-top: 200px;	
+}

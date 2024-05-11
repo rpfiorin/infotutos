@@ -1,0 +1,178 @@
+@CHARSET "ISO-8859-1";
+
+#body {
+	background-color: #F2F2F2;
+}
+
+#panel {
+	background-color: #F2F2F2;
+	height: 502px;
+	width: 1000px;	
+	position: absolute;
+	left: 50%;
+	margin-left: -500px;
+	top: 140px;	
+}
+
+#cadastroTutorial {
+	position: absolute;
+	width: 1000px;
+	height: 450px;
+	margin-top: 10px;
+	margin-left: 0px;	
+}
+
+#tituloCriacao {
+	position: absolute;
+	margin-top: 0px;
+	margin-left: 10px;
+	font-size: 28px;
+	font-family: "Candara", Gadget, sans-serif;
+	font-weight: bold;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: rgb(77, 86, 91);
+	height: 30px;
+	width: 980px;
+	color: rgb(77, 86, 91);
+}
+
+#novologo{
+	position: absolute;
+	margin-top: 2px;
+	margin-left: 802px;
+	width: 25px;
+	height: 25px;
+}
+
+#regraCriacaoleft {
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 20px;
+	width: 480px;
+	height: 240px;
+	text-align: left;
+	font-family: "Arial", Gadget, sans-serif; 
+	line-height: 25px;
+}
+
+#regraCriacaoright {
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 510px;
+	width: 480px;
+	height: 240px;
+	text-align: left;
+	font-family: "Arial", Gadget, sans-serif;
+	line-height: 25px;
+}
+
+#criarTutorial {
+	position: absolute;
+	width: 980px;
+	height: 150px;
+	margin-left: 10px;
+	margin-top: 298px;	
+}
+
+#avisoTutorial{
+	position: absolute;
+	margin-top: 23px;
+	margin-left: 0px;
+	font-size: 12px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+	color: red;
+	width: 150px;
+	text-align: right;
+}
+
+#txtTutorial {
+	position: absolute;
+	margin-left: 160px;
+	margin-top: 20px;
+	font-size: 18px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+}
+
+#tituloTutorial {
+	position: absolute;
+	margin-left: 220px;
+	margin-top: 20px;
+	width: 300px;
+	height: 20px;
+}
+
+#txtCategoria {
+	position: absolute;
+	margin-left: 550px;
+	margin-top: 22px;
+	font-size: 18px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+}
+
+#categoriasList {
+	position: absolute;
+	margin-left: 650px;
+	margin-top: 20px;
+	display: block;
+	padding: 4px 4px;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+#avisoArquivo{	
+	position: absolute;
+	margin-top: 63px;
+	margin-left: 100px;
+	font-size: 12px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+	color: red;
+	text-align: right;
+	width: 200px;
+}
+
+#txtArquivo {
+	position: absolute;
+	margin-left: 310px;
+	margin-top: 60px;
+	font-size: 18px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+}
+
+#tutorialEnviado {
+	position: absolute;
+	margin-left: 460px;
+	margin-top: 60px;
+}
+
+#avisoGeral {
+	position: absolute;
+	margin-top: 82px;
+	margin-left: -65px;
+	font-size: 12px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+	color: red;
+	text-align: center;
+	width: 1000px;
+}
+
+#enviarTutorial {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(188,
+ 28, 0, 1)), color-stop(100%, rgba(186, 6, 0, 1)));
+	border-style: solid;
+	border-color: rgba(188, 28, 0, 1);
+	border-width: 1px;
+	width: 80px;
+	height: 35px;
+	font-weight: bold;
+	margin-top: 100px;
+	margin-left: 430px;
+	border-radius: 3px;
+	color: #FFFFFF;
+}

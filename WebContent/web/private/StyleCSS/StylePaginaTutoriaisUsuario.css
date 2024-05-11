@@ -1,0 +1,226 @@
+@CHARSET "ISO-8859-1";
+
+a:link,a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: blue;
+}
+
+a:active {
+	text-decoration: none
+}
+
+#panel {
+	background-color: #F2F2F2;
+	height: 552px;
+	width: 1340px;
+	position: absolute;
+	left: 0px;
+	top: 140px;
+	border-style: solid;
+	border-color: #000;
+	border-width: 1px;
+}
+
+#lblTutoriais {
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 0px;
+	font-size: 30px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	height: 30px;
+	width: 1340px;
+}
+
+#divHardware {
+	position: absolute;
+	width: 650px;
+	height: 200px;
+	margin-top: 90px;
+	margin-left: 10px;	
+	background-color: rgb(211,211,211);
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 4px;
+	overflow: scroll;
+}
+
+#lblHardware {
+	position: absolute;
+	font-size: 25px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+	margin-left: 0px;
+	margin-top: 50px;
+	font-size: 25px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(188,
+		28, 0, 1)), color-stop(100%, rgba(186, 6, 0, 1)));
+	border-style: solid;
+	border-color: rgba(188, 28, 0, 1);
+	border-width: 1px; 
+	border-radius : 3px;
+	color: #FFFFFF;
+	width: 648px;
+	height: 30px;
+	text-align: center;
+}
+
+#hardware1 {
+	width: 650px;
+	font-size: 14px;
+	font-family: "Arial", Gadget, sans-serif;
+	text-align: center;	
+}
+
+#listaHardware {
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;	
+}
+
+#divRedes {
+	position: absolute;
+	width: 650px;
+	height: 200px;
+	margin-top: 90px;
+	margin-left: 675px;
+	background-color: rgb(211,211,211);
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 4px;
+	overflow: scroll;
+}
+
+#lblRedes {
+	position: absolute;
+	font-size: 25px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(188,
+		28, 0, 1)), color-stop(100%, rgba(186, 6, 0, 1)));
+	border-style: solid;
+	border-color: rgba(188, 28, 0, 1);
+	border-width: 1px; 
+	border-radius : 3px;
+	color: #FFFFFF;
+	width: 648px;
+	height: 30px;
+	margin-left: 0px;
+	margin-top: 90px;
+	text-align: center;
+}
+
+#redes1 {
+	width: 650px;
+	font-size: 14px;
+	font-family: "Arial", Gadget, sans-serif;
+	text-align: center;
+}
+
+#listaRedes {
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#divSO {
+	position: absolute;
+	width: 650px;
+	height: 200px;
+	margin-top: 280px;
+	margin-left: 10px;
+	background-color: rgb(211,211,211);
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 4px;
+	overflow: scroll;
+}
+
+#lblSO {
+	position: absolute;
+	font-size: 25px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(188,
+		28, 0, 1)), color-stop(100%, rgba(186, 6, 0, 1)));
+	border-style: solid;
+	border-color: rgba(188, 28, 0, 1);
+	border-width: 1px; border-radius : 3px;
+	color: #FFFFFF;
+	width: 648px;
+	height: 30px;
+	margin-left: 0px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+#so1 {
+	width: 650px;
+	font-size: 14px;
+	font-family: "Arial", Gadget, sans-serif;	
+	text-align: center;
+}
+
+#listaSO {
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#divProgramacao {
+	position: absolute;
+	width: 650px;
+	height: 200px;
+	margin-top: 280px;
+	margin-left: 675px;
+	background-color: rgb(211,211,211);
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 4px;
+	overflow: scroll;
+}
+
+#lblProgramacao {
+	position: absolute;
+	font-size: 25px;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(188,
+		28, 0, 1)), color-stop(100%, rgba(186, 6, 0, 1)));
+	border-style: solid;
+	border-color: rgba(188, 28, 0, 1);
+	border-width: 1px; border-radius : 3px;
+	color: #FFFFFF;
+	width: 648px;
+	height: 30px;
+	margin-left: 0px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+#programacao1 {
+	width: 650px;
+	font-size: 14px;
+	font-family: "Arial", Gadget, sans-serif;
+	text-align: center;
+}
+
+#listaProgramacao {
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+#rodapeInsert {
+	margin-top: 58px;
+}
+
+.lista {
+	list-style: none;
+}
